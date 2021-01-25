@@ -1,0 +1,7 @@
+.usersWrapper {
+  height: fit-content;
+  border: 1px solid navy;
+  margin: 5px;
+  padding: 5px;
+  box-sizing: border-box;
+}

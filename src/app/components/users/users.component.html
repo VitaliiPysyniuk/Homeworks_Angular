@@ -1,0 +1,5 @@
+<div class="usersWrapper" *ngIf="user">
+  <h2>Selected users</h2>
+  <app-user [user]="user"></app-user>
+  <button (click)="deleteUser()">Delete user</button>
+</div>

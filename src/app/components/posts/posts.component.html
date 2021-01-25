@@ -1,0 +1,4 @@
+<div class="flexWrapper">
+  <h2>All posts</h2>
+  <app-post *ngFor="let post of posts" [post]="post" (selectUser)="upSelectedUser($event)"></app-post>
+</div>

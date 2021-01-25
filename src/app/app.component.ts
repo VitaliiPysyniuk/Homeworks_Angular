@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import {IUser} from './models';
+import {UsersService} from './services/Users.service';
 
 @Component({
   selector: 'app-root',
@@ -8,8 +10,15 @@ import { Component } from '@angular/core';
 
 
 export class AppComponent {
-  title = 'Homework-First';
-  count: number;
-  counter = (): any => {
+  user: IUser;
+  selectedUserId: number;
+
+  constructor(private service: UsersService) {
+  }
+
+  getSelectedUser(id): void {
+    console.log('App', id);
+    this.selectedUserId = id;
+    // this.service.getUserById(id).subscribe(value => this.user = value);
   }
 }

@@ -1,1 +1,4 @@
-
+<div class="flexWrapper">
+  <app-posts (newSelectUser)="getSelectedUser($event)" class="width33"></app-posts>
+  <app-users [selectedUserId]="selectedUserId" class="width33" *ngIf="selectedUserId"></app-users>
+</div>
