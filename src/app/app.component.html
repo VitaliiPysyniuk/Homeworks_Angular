@@ -1,2 +1,10 @@
-<h1 style="text-align: center">Homework #3</h1>
-<app-users></app-users>
+<div>
+  <h2>Select item</h2>
+  <ul>
+    <li><a [routerLink]="['home', 'users']">Users</a></li>
+    <li><a [routerLink]="['home', 'posts']">Posts</a></li>
+    <li><a [routerLink]="['home', 'comments']">Comments</a></li>
+  </ul>
+</div>
+
+<router-outlet></router-outlet>
