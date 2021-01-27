@@ -1,1 +1,8 @@
-<h1>Homework #4</h1>
+<header [class]="['border']">
+  <a [routerLink]="['users']">Users</a>
+  <a [routerLink]="['posts']">Posts</a>
+  <a [routerLink]="['comments']">Comments</a>
+</header>
+<main [class]="['border']">
+  <router-outlet></router-outlet>
+</main>

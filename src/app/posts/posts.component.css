@@ -1,0 +1,19 @@
+.width-50 {
+  width: 49%;
+}
+
+.border {
+  border: 2px solid black;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.center {
+  text-align: center;
+}
+
+.flexWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}

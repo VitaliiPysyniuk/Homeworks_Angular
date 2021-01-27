@@ -1,0 +1,18 @@
+.border {
+  border: 2px solid navy;
+  box-sizing: border-box;
+  margin: 10px 5px;
+  padding: 10px 20px;
+}
+
+header a {
+  text-decoration: none;
+  color: navy;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+}
